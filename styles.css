@@ -1,0 +1,87 @@
+:root {
+  --font-size: 1.3rem;
+  --color: #1d1d1d;
+  --color-1: #6acff1;
+  --color-2: #74fbd7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #2b5aaa;
+}
+.navbar {
+  background-color: rgb(228, 210, 48);
+  padding: 1rem;
+}
+
+h2 {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 2rem;
+  letter-spacing: 2;
+}
+
+.container,
+.container-3 {
+  background-color: var(--color-1);
+  margin: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.the-best img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.sub-container {
+  margin: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.sub-1 {
+  background-color: var(--color-2);
+  flex: 60%;
+}
+
+.sub-1 p {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.sub-2 {
+  background-color: var(--color-1);
+  flex: 40%;
+}
+
+.blahaj {
+  position: absolute;
+  right: 10px;
+}
+
+.container-3 p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 1000px) {
+    .blahaj{
+        width: 50%;
+        right: 0;
+        bottom: -30rem;
+    }
+}
