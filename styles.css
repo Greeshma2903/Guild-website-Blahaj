@@ -84,4 +84,7 @@ h2 {
         right: 0;
         bottom: -30rem;
     }
+  .container-2{
+    display:block;
+  }
 }
