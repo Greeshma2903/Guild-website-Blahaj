@@ -71,7 +71,8 @@ h2 {
 .blahaj {
   position: absolute;
   right: 10px;
-  height: 250px;
+  top: 120%;
+  height: 315px;
 }
 
 .container-3 p {
@@ -83,7 +84,7 @@ h2 {
     .blahaj{
         width: 50%;
         right: 0;
-        bottom: -30rem;
+        bottom: -93%;
     }
   .container-2{
     display:block;
