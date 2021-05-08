@@ -83,8 +83,9 @@ h2 {
 @media screen and (max-width: 1000px) {
     .blahaj{
         width: 50%;
+        height: auto;
         right: 0;
-        bottom: -93%;
+        top: 160%;
     }
   .container-2{
     display:block;
